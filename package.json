@@ -1,0 +1,15 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "nuxi dev",
+    "build": "nuxi build",
+    "start": "node .output/server/index.mjs"
+  },
+  "devDependencies": {
+    "nuxt3": "latest"
+  },
+  "dependencies": {
+    "algoliasearch": "^4.12.1",
+    "vue-instantsearch": "https://pkg.csb.dev/algolia/vue-instantsearch/commit/b86eb7d9/vue-instantsearch"
+  }
+}
